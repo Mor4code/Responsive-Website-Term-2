@@ -1,0 +1,306 @@
+:root {
+    --black: #222323;
+    --light-text: rgb(255, 255, 255);
+    --lightbrown:#BC9A6C;
+    --darkbrown:#1E1E1E;
+}
+
+/* ----------------------Menu Nav----------------------- */
+
+/* FLEX - HEADER + FOOTER */
+.flex-row {
+    width:  1280px;
+    margin: 0 auto;
+    padding: 1.5% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 30px; */
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    justify-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    }
+
+
+
+
+/* buttons Nav */
+
+.site-header__logo {
+    width:18.75rem;
+}
+
+/* TOGGLE style */
+.hamburger {
+    position: absolute;
+    z-index: 2;
+    top:0;
+    right: 0;
+    padding: 1%;
+    cursor: pointer;
+    font-size: 2.5em;
+}
+
+.close-icon {
+    display: none;
+}
+
+.hamburger, .close-icon{
+    color:var(--lightbrown);
+}
+
+
+/* MENU Styles */
+.site-header__menu {
+    display: flex;
+ 
+    justify-content: space-between;
+}
+
+
+.site-header__menu ul{
+    
+}
+
+/* .site-header__menu ul {
+    text-align: end;
+    top: 4.8em;
+    right: 0;
+    z-index: 1;
+    background-color:var(--lightbrown);
+    padding: 2%;
+  
+    display: flex;
+
+    justify-content: space-between;
+} */
+
+
+.site-header__menu li{
+    font-size: 1.4em;
+} 
+
+a{
+    color: var(--light-text);
+    text-decoration: none;
+}
+
+.site-header__menu a {
+    transition: color 300ms ease-in-out;
+}
+
+.navrow{
+    display: flex;
+    flex-direction: column;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+
+
+.grid .side-menu {
+    grid-column:auto/ 4 span;
+    display: flex;
+    width: 100%; 
+
+ 
+}
+
+.side-menu li {
+width: 100%;    
+text-align: center;   
+padding-left: 0;
+ padding-bottom: 0.5rem;
+ padding-bottom: 0.5rem;
+    flex-direction: row;
+
+}
+.side-menu li:hover {
+    background-color: none;
+}
+
+
+    span{
+        color: var(--light-text);
+        display: none;
+    }
+
+
+
+   
+    .brand-text{
+        color: white;
+    }
+
+
+
+
+
+
+
+    #menuItems{
+    grid-column: 1/-1;
+
+
+}
+
+
+
+.menu_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.wide-bg {
+    background-color:  var(--darkbrown);
+}
+
+
+
+
+.site-header__menu ,.nav-menu ,.open{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+
+.pfollowus{
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 0;
+    display: flex;
+align-content: center;
+}
+
+
+
+@media screen and (min-width: 834px) {
+
+    .site-header__menu ul {
+        text-align: end;
+        top: 4.8em;
+        right: 0;
+        z-index: 1;
+        background-color:transparent;
+        padding: 2%;
+        /* position: absolute; */
+        display: flex;
+    
+        justify-content: space-between;
+    }
+    
+
+
+
+    .side-menu li:hover {
+        background-color: #c8a165;
+        color: #000;
+        flex-direction:row;
+    }
+
+    .navrow{
+        flex-direction: row;
+    }
+
+    .navrow li{
+        padding: 0 2rem;
+    }
+
+ 
+
+
+    .site-header__menu {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        color: #fff;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background-color:transparent;
+        width: 100%;
+
+        transform: none;
+    }
+    
+
+  
+    
+    .close-icon,  .hamburger-icon {
+        display: none;
+    }
+   
+    
+    nav .flex-row {
+        flex-direction: row;
+        
+       
+    }
+    
+    
+  
+    
+    a:hover {
+        color: var(--lightbrown);
+    }
+
+
+
+    .side-menu li {
+       /* text-align: center; */
+       display: flex;
+       justify-content: start;
+       align-items: center;
+       padding: 0%;
+       padding-left: 1rem;
+      
+    
+       
+    }
+    span{
+        margin-left: 1rem;
+        display: flex;
+    
+    }
+
+
+    
+    .side-menu{
+        flex-direction: column;
+        grid-column: 4 span;
+        
+    }
+    
+    
+    
+    #menuItems{
+        grid-column: 4/-1;
+        
+    }
+    
+    .grid .side-menu {
+        grid-column:auto/ 3 span;
+       
+     
+    }
+    
+}
+
+
+
+

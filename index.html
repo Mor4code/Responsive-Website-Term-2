@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Questrial&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Manrope:wght@200..800&family=Titan+One&display=swap"
+        rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!------------- plugins --------->
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contactUs.css">
+
+    <!-- Plugin after styles  -->
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Koko Cafe</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="flex-row  ">
+
+        <nav class="site-header__menu ">
+
+            <a href="/html/index.html"><img src="images/logo.svg" alt="Eden Logo"></a>
+
+            <ul class="navrow">
+                <li>
+                    <a href="/html/about.html">About</a>
+                </li>
+                <li>
+                    <a href="">Join Us</a>
+                </li>
+
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="hamburger">
+            <!-- Icon for the hamburger -->
+            <ion-icon class="hamburger-icon" name="menu-outline"></ion-icon>
+            <!-- icon for the "close" button -->
+            <ion-icon class="close-icon" name="close-circle-outline"></ion-icon>
+        </button>
+    </header>
+
+
+
+    <!-- CONTENT -->
+    <main>
+        <section class="cta two-col grid hero opening">
+            <!-- <div class="grid">
+                    <div class="flex-center">
+                        <h1>Lorem  Ipsum Dolor</h1>
+                    </div>
+                </div> -->
+            <div class="grid-item">
+                <h1>Heal the world
+                    with coffee</h2>
+                    <p id="paragraphHero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure
+                        veritatis ex architecto ab
+                        esse, non nisi. Temporibus atque animi, cumque vel similique esse nihil odio dolorem
+                        officia. Minima, ratione.</p>
+                    <div class="buttons">
+                        <button class="btn_brown">Order Now</button>
+                        <button class="btn_light">See More</button>
+                    </div>
+            </div>
+            <div class="grid-item">
+                <picture>
+                    <img class="imgHero" src="images/large-image1-min.jpg"
+                        alt="A path through a greenhouse filled with tropical plants">
+                </picture>
+            </div>
+        </section>
+
+
+        </div>
+
+        <section class="four-col" data-aos="flip-up" id="menuNl">
+            <div class="intro grid-item">
+                <h2>Menu </h2>
+                <p>At This Part you can See Few Of The Many Positive reviews Of Our Customers.</p>
+            </div>
+            <div class="grid ">
+
+
+                <ul class="  side-menu ">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cup-hot" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5M2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175" />
+                            <path
+                                d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8" />
+                        </svg>
+                        <span>Americano</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cup-straw" viewBox="0 0 16 16">
+                            <path
+                                d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82q0 .069-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87s-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A1 1 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278M9.768 4.607A14 14 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.3 3.3 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a6 6 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69s2.081-.441 2.438-.69c.042-.029.09-.094.102-.215l.852-8.03a6 6 0 0 1-.435.127 9 9 0 0 1-.89.17zM4.467 4.884s.003.002.005.006zm7.066 0-.005.006zM11.354 5a3 3 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222" />
+                        </svg>
+                        <span>Espresso</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cup-straw" viewBox="0 0 16 16">
+                            <path
+                                d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82q0 .069-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87s-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A1 1 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278M9.768 4.607A14 14 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.3 3.3 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a6 6 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69s2.081-.441 2.438-.69c.042-.029.09-.094.102-.215l.852-8.03a6 6 0 0 1-.435.127 9 9 0 0 1-.89.17zM4.467 4.884s.003.002.005.006zm7.066 0-.005.006zM11.354 5a3 3 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222" />
+                        </svg> <span>Arabica</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cup-straw" viewBox="0 0 16 16">
+                            <path
+                                d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82q0 .069-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87s-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A1 1 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278M9.768 4.607A14 14 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.3 3.3 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a6 6 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69s2.081-.441 2.438-.69c.042-.029.09-.094.102-.215l.852-8.03a6 6 0 0 1-.435.127 9 9 0 0 1-.89.17zM4.467 4.884s.003.002.005.006zm7.066 0-.005.006zM11.354 5a3 3 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222" />
+                        </svg> <span>Coffee stimy</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cup-straw" viewBox="0 0 16 16">
+                            <path
+                                d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82q0 .069-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87s-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A1 1 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278M9.768 4.607A14 14 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.3 3.3 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a6 6 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69s2.081-.441 2.438-.69c.042-.029.09-.094.102-.215l.852-8.03a6 6 0 0 1-.435.127 9 9 0 0 1-.89.17zM4.467 4.884s.003.002.005.006zm7.066 0-.005.006zM11.354 5a3 3 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222" />
+                        </svg> <span>Organic Pack</span>
+                    </li>
+                </ul>
+
+                <div id="menuItems">
+                    <div class=" grid-item">
+                        <img src="images/type4-min.jpg" alt="A coffee">
+                        <h3 class="strongerh3">Leafy Planty</h3>
+                        <p>43.78$</p>
+                    </div>
+                    <div class=" grid-item">
+                        <img src="images/type4-min.jpg" alt="A A coffee">
+                        <h3 class="strongerh3">Leafy Planty</h3>
+                        <p>43.78$</p>
+                    </div>
+                    <div class=" grid-item">
+                        <img src="images/type4-min.jpg" alt="A coffee">
+                        <h3 class="strongerh3">Leafy Planty</h3>
+                        <p>43.78$</p>
+                    </div>
+                    <div class=" grid-item">
+                        <img src="images/type4-min.jpg" alt="A coffee">
+                        <h3 class="strongerh3">Leafy Planty</h3>
+                        <p>43.78$</p>
+                    </div>
+                    <div class=" grid-item">
+                        <img src="images/type4-min.jpg" alt="A coffee">
+                        <h3 class="strongerh3">Leafy Planty</h3>
+                        <p>43.78$</p>
+                    </div>
+                    <div class=" grid-item">
+                        <img src="images/type4-min.jpg" alt="A coffee">
+                        <h3 class="strongerh3">Leafy Planty</h3>
+                        <p>43.78$</p>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <section class="intro grid-item" data-aos="flip-up" id="galleryl">
+            <h2>Gallery </h2>
+            <p>At This Part you can See Few Of The Many Positive reviews Of Our Customers.</p>
+            <div class="  grid ">
+                <div class="main__feat-image">
+                    <img src="images/large-image4-min.jpg" />
+                </div>
+                <div class="thumb__image"><img src="images/image5-min.jpg"></div>
+                <div class="thumb__image"><img src="images/image5-min.jpg"></div>
+                <div class="main__feat-image">
+                    <img src="images/large-image4-min.jpg" />
+                </div>
+
+                <div class="thumb__image"><img src="images/image5-min.jpg"></div>
+                <div class="thumb__image"><img src="images/image5-min.jpg"></div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section data-aos="flip-up" id="contactus1">
+            <div class="intro grid-item">
+                <h2>Contact Us </h2>
+                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+            </div>
+            <div class="two-col grid cta ">
+
+                <form class="grid-item bootstrap-container">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="extraText" class="form-label">Message</label>
+                        <input type="message" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <button type="submit" class=" btn btn-primary">Submit</button>
+                </form>
+
+                <div class="grid-item details">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-geo" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
+                            </svg>
+                            <p class="contsct-detailsP">Spring St undefined Anchoi<br>Georgia 12473 United States</p>
+                        </div>
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <p class="contsct-detailsP">(843) 555-0130</p>
+                        </div>
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                            </svg>
+                            <p class="contsct-detailsP">villie.jennings@example.com</p>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <div id="map"></div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" title="facebook">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" title="twitter">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" title="instagram">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+    <!-- FOOTER -->
+    <div class="  wide-bg  ">
+        <footer class="  three-col grid wide-bg ">
+            <!-- LOGO AND DESCRIPTION -->
+            <div class="grid-item">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="FitMaker Logo" width="120">
+                </a>
+                <p class="brand-text">
+                    Transform your body with FitMaker, your trusted partner in fitness. With years of experience, we
+                    offer
+                    expert coaching, tailored workout plans, and comprehensive nutritional guidance. Start your journey
+                    towards a healthier, stronger you today. Ready to make a change?
+                </p>
+            </div>
+
+            <!-- NAVIGATION LINKS -->
+            <nav aria-label="Footer Navigation" class="grid-item">
+                <h2 class="pfollowus">Menu</h2>
+                <ul class="menu_footer">
+                    <li><a href="html/about.html">About</a></li>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!-- SOCIAL ICONS -->
+            <div class="grid-item">
+                <h2 class="pfollowus">Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#" title="Follow us on Facebook" aria-label="Facebook">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" title="Follow us on Twitter" aria-label="Twitter">
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" title="Follow us on Instagram" aria-label="Instagram">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <!-- plugina -->
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- photoswipe -->
+    <!-- <script src="https://unpkg.com/photoswipe"></script>
+    <script src="https://unpkg.com/photoswipe/lightbox"></script> -->
+
+
+
+    <!-- Jquary -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    <!-- Include Masonry -->
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+
+
+    <!-- fomrm-bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- fomrm-matirilize -->
+    <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.1.1/dist/js/materialize.min.js"></script>
+
+
+    <!-- map -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+
+
+
+    <!-- Iconic -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+
+    <!-- js files -->
+
+    <script src="js/script.js"></script>
+    <script src="js/nav.js"></script>
+
+
+</body>
+
+</html>
